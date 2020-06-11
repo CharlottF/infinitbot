@@ -51,7 +51,6 @@ class MyClient(discord.Client):
 			print(repr(e))
 
 # RUN
-bot.user.setGame(Role-Play | In Information);
 bot = MyClient()
 TOKEN = os.environ.get('BOT_TOKEN')
 bot.run(str(TOKEN))
