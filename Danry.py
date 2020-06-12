@@ -54,3 +54,4 @@ class MyClient(discord.Client):
 bot = MyClient()
 TOKEN = os.environ.get('BOT_TOKEN')
 bot.run(str(TOKEN))
+
