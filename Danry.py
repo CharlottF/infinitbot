@@ -51,7 +51,7 @@ class MyClient(discord.Client):
 			print(repr(e))
 
 # RUN
-bot = MyClient()
+bot = MyClient(intents=discord.Intents.default())
 TOKEN = os.environ.get('BOT_TOKEN')
 bot.run(str(TOKEN))
 
